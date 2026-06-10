@@ -8,17 +8,17 @@ The goal of this project is to recommend cafes based on user preferences such as
 
 ## Motivation
 
-This project was inspired by a very simple problem: choosing a café.
+This project was inspired by a very simple problem: choosing a cafe.
 
-As someone who enjoys café hopping in Seoul, I have hundreds of cafés saved across different neighborhoods. Many mornings I would open Kakao Maps or Naver Maps looking for a café that matched my mood for the day, only to spend a long time scrolling through my saved places, photos, and reviews.
+As someone who enjoys cafe hopping in Seoul, I have hundreds of cafes saved across different neighborhoods. Many mornings I would open Kakao Maps or Naver Maps looking for a cafe that matched my mood for the day, only to spend a long time scrolling through my saved places, photos, and reviews.
 
-I wanted a smarter way to search through cafés using natural language queries such as:
+I wanted a smarter way to search through cafes using natural language queries such as:
 
-- "quiet café in Seongsu with good coffee"
-- "aesthetic dessert café for a date"
-- "minimal café to work from"
+- "quiet cafe in Seongsu with good coffee"
+- "aesthetic dessert cafe for a date"
+- "minimal cafe to work from"
 
-This project aims to turn that experience into a recommendation system that helps users discover cafés based on atmosphere and preferences rather than manually browsing maps.
+This project aims to turn that experience into a recommendation system that helps users discover cafes based on atmosphere and preferences rather than manually browsing maps.
 
 ---
 
@@ -29,7 +29,7 @@ Current MVP supports:
 - Cafe recommendations based on keywords
 - District filtering
 - Simple ranking based on matching tags
-- Curated Seoul café dataset
+- Curated Seoul cafe dataset
 
 Example queries:
 
@@ -45,7 +45,7 @@ recommend(df, "work friendly", district="성수")
 
 ## Dataset
 
-The current dataset contains 50 manually curated cafés from various districts in Seoul.
+The current dataset contains 50 manually curated cafes from various districts in Seoul.
 
 Available fields:
 
@@ -53,7 +53,7 @@ Available fields:
 | -------- | --------------------------- |
 | name     | Cafe name                   |
 | district | Seoul district/neighborhood |
-| category | Café type                   |
+| category | Cafe type                   |
 | tags     | Descriptive attributes      |
 
 Example:
@@ -143,7 +143,7 @@ For each query:
 
 1. User query is split into keywords
 2. Keywords are matched against:
-    * café name
+    * cafe name
     * district
     * category
     * tags
