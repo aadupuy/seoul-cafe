@@ -4,14 +4,21 @@ A cafe recommendation system for Seoul built with Python.
 
 The goal of this project is to recommend cafes based on user preferences such as atmosphere, location, and cafe characteristics.
 
-This project is developed in stages:
+---
 
-- Week 1: Metadata-based filtering
-- Week 2: Semantic search with embeddings
-- Week 3: FastAPI backend
-- Week 4: Docker containerization
-- Week 5: Cloud deployment
-- Week 6: Frontend and user interface
+## Motivation
+
+This project was inspired by a very simple problem: choosing a café.
+
+As someone who enjoys café hopping in Seoul, I have hundreds of cafés saved across different neighborhoods. Many mornings I would open Kakao Maps or Naver Maps looking for a café that matched my mood for the day, only to spend a long time scrolling through my saved places, photos, and reviews.
+
+I wanted a smarter way to search through cafés using natural language queries such as:
+
+- "quiet café in Seongsu with good coffee"
+- "aesthetic dessert café for a date"
+- "minimal café to work from"
+
+This project aims to turn that experience into a recommendation system that helps users discover cafés based on atmosphere and preferences rather than manually browsing maps.
 
 ---
 
@@ -199,19 +206,3 @@ Planned:
 * FastAPI
 * Docker
 * GCP Cloud Run
-
----
-
-## Motivation
-
-This project was inspired by a very simple problem: choosing a café.
-
-As someone who enjoys café hopping in Seoul, I have hundreds of cafés saved across different neighborhoods. Many mornings I would open Kakao Maps or Naver Maps looking for a café that matched my mood for the day, only to spend a long time scrolling through my saved places, photos, and reviews.
-
-I wanted a smarter way to search through cafés using natural language queries such as:
-
-- "quiet café in Seongsu with good coffee"
-- "aesthetic dessert café for a date"
-- "minimal café to work from"
-
-This project aims to turn that experience into a recommendation system that helps users discover cafés based on atmosphere and preferences rather than manually browsing maps.
