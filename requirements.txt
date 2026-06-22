@@ -6,3 +6,4 @@ faiss-cpu
 fastapi
 uvicorn
 pydantic
+streamlit
