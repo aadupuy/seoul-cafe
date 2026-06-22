@@ -176,6 +176,38 @@ good place to study
 
 are treated as different queries even though they have similar intent.
 
+--- 
+
+## API
+
+Start server
+
+```bash
+uvicorn src.api:app --reload
+```
+
+Open: http://127.0.0.1:8000/docs
+
+Example request:
+
+```bash
+{
+  "query": "quiet cafe with good coffee",
+  "district": "성수",
+  "top_k": 5
+}
+```
+
+Example response:
+
+```bash
+{
+  "query": "quiet cafe with good coffee",
+  "district": "성수",
+  "results": [...]
+}
+```
+
 ---
 
 ## Future Improvements

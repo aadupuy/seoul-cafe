@@ -1,5 +1,8 @@
 pandas
+numpy
 jupyter
 sentence-transformers
 faiss-cpu
-numpy
+fastapi
+uvicorn
+pydantic
