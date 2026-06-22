@@ -97,7 +97,9 @@ seoul-cafe-recommender/
 │   └── 01_mvp_filtering.ipynb
 │
 ├── src/
-│   └── recommender.py
+│   ├── api.py
+│   ├── recommender.py
+│   └── schemas.py
 │
 ├── README.md
 └── requirements.txt
