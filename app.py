@@ -83,7 +83,7 @@ if search_clicked:
             with left:
                 st.markdown(f"### ☕ {row['name']}")
                 st.markdown(f"📍 **District:** {row['district']}")
-                st.markdown(f"🏷️ **Tags:** {row['tags']}")
+                st.markdown(f"🏷️ **Tags:** {row['tags'].replace('_', ' ')}")
 
             with right:
                 # st.metric("Score", f"{row['score']:.3f}")
