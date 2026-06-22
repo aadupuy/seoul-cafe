@@ -1,10 +1,5 @@
+streamlit
 pandas
 numpy
-jupyter
 sentence-transformers
 faiss-cpu
-fastapi
-uvicorn
-pydantic
-streamlit
-torchvision
