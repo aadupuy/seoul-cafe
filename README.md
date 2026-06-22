@@ -1,3 +1,12 @@
+---
+title: Seoul Cafe Recommender
+emoji: ☕
+colorFrom: pink
+colorTo: blue
+sdk: docker
+pinned: false
+---
+
 # Seoul Cafe Recommender
 
 A cafe recommendation system for Seoul built with Python.
